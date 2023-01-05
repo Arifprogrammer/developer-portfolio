@@ -4,15 +4,16 @@
 }
 
 header {
+    background: #FFF8F3;
     background-image: url("../images/header_bg.png"),
-                                url("../images/developer.png");
+        url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: right bottom, left;
-    margin-left: 1.5em;
+    margin-bottom: 130px;
 }
 
 .container {
-    margin: 0px 200px;
+    margin: 0px 230px 130px;
 }
 
 nav {
@@ -21,7 +22,7 @@ nav {
     padding: 50px 0px;
 }
 
-nav > h1 {
+nav>h1 {
     font-weight: 800;
     font-size: 45px;
 }
@@ -76,13 +77,176 @@ nav ul li:nth-child(3) {
     font-size: 85px;
     color: #181818;
 }
-.banner-text > p{
+
+.banner-text>p {
     color: #757575;
     font-size: 18px;
     width: 585px;
 }
+
 .btn {
     margin-top: 50px;
     display: flex;
     gap: 1.9em;
+}
+
+.change--btn {
+    background: transparent !important;
+    color: #FD6E0A !important;
+    border: 2px solid #FD6E0A;
+}
+
+.about-container {
+    background: #FFF8F3;
+}
+
+.about-me {
+    padding: 157px 131px;
+    text-align: center;
+}
+
+.text--align {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.about-me>p {
+    color: #757575;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info div>p:nth-child(1) {
+    color: #757575;
+    font-size: 20px;
+}
+
+.info div>p:nth-child(2) {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about-me>h1,
+.about-me>p {
+    margin-bottom: 30px;
+}
+
+.what--container>p {
+    padding: 1.9em 5em 3em;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    gap: 1.5em;
+}
+
+.skills>*>* {
+    margin: 0px 1.9em 2.2em;
+}
+
+.skills>* {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skills h2 {
+    font-size: 1.25em;
+    color: #181818;
+}
+
+.skills p {
+    color: #757575;
+}
+
+.skills img {
+    margin-top: 1.9em;
+}
+
+.resume {
+    margin-top: 113px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 1.5em;
+}
+
+.resume h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.resume p {
+    color: #757575;
+}
+
+.education>* {
+    margin-bottom: 20px;
+}
+
+.experience>* {
+    margin-bottom: 20px;
+}
+
+.middle-btn {
+    text-align: center;
+}
+
+.education p:nth-child(odd),
+.experience p:nth-child(odd) {
+    font-size: 20px;
+}
+
+.education,
+.experience {
+    margin-right: 3em;
+}
+
+footer{
+    background: #FFF8F3;
+}
+.contact {
+    padding: 130px 0px;
+    margin-bottom: 0px !important;
+    display: flex;
+    /* gap: 117px; */
+    justify-content: space-between;
+}
+
+.connect>* {
+    margin-bottom: 1.25em;
+}
+.connect p{
+    width: 562px;
+}
+.connect > img{
+    margin-left: 1em;
+}
+.message>* {
+    margin-bottom: 1.25em;
+}
+
+.message input {
+    width: 461px;
+    height: 64px;
+    border: none;
+}
+.message textarea{
+    border: none;
+    margin-bottom: 2.5em;
 }
